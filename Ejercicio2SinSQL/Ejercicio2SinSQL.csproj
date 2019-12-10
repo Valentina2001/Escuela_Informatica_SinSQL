@@ -60,12 +60,21 @@
     <Compile Include="AlumnoManager.cs" />
     <Compile Include="Database\AlumnoModel.cs" />
     <Compile Include="Database\GlobalDbContext.cs" />
+    <Compile Include="Database\GrupoModel.cs" />
     <Compile Include="FormAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormAlumnos.Designer.cs">
       <DependentUpon>FormAlumnos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGrupos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGrupos.Designer.cs">
+      <DependentUpon>FormGrupos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo.cs" />
+    <Compile Include="GrupoManager.cs" />
     <Compile Include="menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +85,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAlumnos.resx">
       <DependentUpon>FormAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGrupos.resx">
+      <DependentUpon>FormGrupos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu_principal.resx">
       <DependentUpon>menu_principal.cs</DependentUpon>

@@ -39,5 +39,15 @@ namespace Ejercicio2SinSQL.Database
             return query;
         }
 
+        public IQueryable<Grupo> Grupos(bool trackChanges = false)
+        {
+            IQueryable<Grupo> query = this.Set<Grupo>();
+            if (!trackChanges)
+            {
+                query = query.AsNoTracking();
+            }
+            return query;
+        }
+
     }
 }

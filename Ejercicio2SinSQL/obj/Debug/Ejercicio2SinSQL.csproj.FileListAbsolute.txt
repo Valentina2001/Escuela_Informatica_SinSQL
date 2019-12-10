@@ -13,3 +13,19 @@ C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejer
 C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.exe
 C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.pdb
 C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.csprojAssemblyReference.cache
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\bin\Debug\Ejercicio2SinSQL.exe.config
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\bin\Debug\Ejercicio2SinSQL.exe
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\bin\Debug\Ejercicio2SinSQL.pdb
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\bin\Debug\EntityFramework.dll
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\bin\Debug\EntityFramework.xml
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.csprojAssemblyReference.cache
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.FormAlumnos.resources
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.menu_principal.resources
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.Properties.Resources.resources
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.csproj.GenerateResource.cache
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.csproj.CopyComplete
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.exe
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.pdb
+C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.FormGrupos.resources
