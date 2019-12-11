@@ -61,6 +61,7 @@
     <Compile Include="Database\AlumnoModel.cs" />
     <Compile Include="Database\GlobalDbContext.cs" />
     <Compile Include="Database\GrupoModel.cs" />
+    <Compile Include="Database\TFCModel.cs" />
     <Compile Include="FormAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +74,12 @@
     <Compile Include="FormGrupos.Designer.cs">
       <DependentUpon>FormGrupos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTFC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTFC.Designer.cs">
+      <DependentUpon>FormTFC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Grupo.cs" />
     <Compile Include="GrupoManager.cs" />
     <Compile Include="menu_principal.cs">
@@ -83,11 +90,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TFC.cs" />
+    <Compile Include="TFCManager.cs" />
     <EmbeddedResource Include="FormAlumnos.resx">
       <DependentUpon>FormAlumnos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormGrupos.resx">
       <DependentUpon>FormGrupos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTFC.resx">
+      <DependentUpon>FormTFC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu_principal.resx">
       <DependentUpon>menu_principal.cs</DependentUpon>

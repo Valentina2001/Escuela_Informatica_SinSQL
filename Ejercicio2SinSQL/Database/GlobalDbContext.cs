@@ -49,5 +49,15 @@ namespace Ejercicio2SinSQL.Database
             return query;
         }
 
+        public IQueryable<TFC> TFCs(bool trackChanges = false)
+        {
+            IQueryable<TFC> query = this.Set<TFC>();
+            if (!trackChanges)
+            {
+                query = query.AsNoTracking();
+            }
+            return query;
+        }
+
     }
 }
