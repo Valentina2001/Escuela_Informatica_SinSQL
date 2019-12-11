@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace Ejercicio2SinSQL.Database
 {
-    public class GrupoModel : EntityTypeConfiguration<Grupo>
+    public class ProfesorModel : EntityTypeConfiguration<Profesor>
     {
-        public GrupoModel()
+        public ProfesorModel()
         {
-            this.ToTable("grupo");
+            this.ToTable("profesor");
         }
     }
 }
-

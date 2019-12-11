@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAlumnos));
             this.listAlumno = new System.Windows.Forms.ListView();
             this.colNumMatricula = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colDNI = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -158,11 +159,11 @@
             // 
             // btnActualizarAlumno
             // 
-            this.btnActualizarAlumno.Location = new System.Drawing.Point(530, 298);
+            this.btnActualizarAlumno.Image = ((System.Drawing.Image)(resources.GetObject("btnActualizarAlumno.Image")));
+            this.btnActualizarAlumno.Location = new System.Drawing.Point(629, 245);
             this.btnActualizarAlumno.Name = "btnActualizarAlumno";
-            this.btnActualizarAlumno.Size = new System.Drawing.Size(75, 23);
+            this.btnActualizarAlumno.Size = new System.Drawing.Size(80, 71);
             this.btnActualizarAlumno.TabIndex = 10;
-            this.btnActualizarAlumno.Text = "Actualizar";
             this.btnActualizarAlumno.UseVisualStyleBackColor = true;
             this.btnActualizarAlumno.Click += new System.EventHandler(this.btnActualizarAlumno_Click);
             // 

@@ -26,7 +26,9 @@ namespace Ejercicio2SinSQL
 
         private void btnProfesor_Click(object sender, EventArgs e)
         {
-            
+            FormProfesores form = new FormProfesores();
+            this.Dispose(false);
+            form.Show();
         }
 
         private void btnTribunal_Click(object sender, EventArgs e)

@@ -61,6 +61,7 @@
     <Compile Include="Database\AlumnoModel.cs" />
     <Compile Include="Database\GlobalDbContext.cs" />
     <Compile Include="Database\GrupoModel.cs" />
+    <Compile Include="Database\ProfesorModel.cs" />
     <Compile Include="Database\TFCModel.cs" />
     <Compile Include="Database\TribunalModel.cs" />
     <Compile Include="FormAlumnos.cs">
@@ -74,6 +75,12 @@
     </Compile>
     <Compile Include="FormGrupos.Designer.cs">
       <DependentUpon>FormGrupos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProfesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProfesores.Designer.cs">
+      <DependentUpon>FormProfesores.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTFC.cs">
       <SubType>Form</SubType>
@@ -95,6 +102,17 @@
     <Compile Include="menu_principal.Designer.cs">
       <DependentUpon>menu_principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912111852540_InitialCreate.cs" />
+    <Compile Include="Migrations\201912111852540_InitialCreate.designer.cs">
+      <DependentUpon>201912111852540_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912112328084_Update.cs" />
+    <Compile Include="Migrations\201912112328084_Update.designer.cs">
+      <DependentUpon>201912112328084_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Profesor.cs" />
+    <Compile Include="ProfesorManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TFC.cs" />
@@ -112,6 +130,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menu_principal.resx">
       <DependentUpon>menu_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912111852540_InitialCreate.resx">
+      <DependentUpon>201912111852540_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912112328084_Update.resx">
+      <DependentUpon>201912112328084_Update.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
