@@ -31,17 +31,23 @@ namespace Ejercicio2SinSQL
 
         private void btnTribunal_Click(object sender, EventArgs e)
         {
-            
+            FormTribunales form = new FormTribunales();
+            this.Dispose(false);
+            form.Show();
         }
 
         private void btnTfc_Click(object sender, EventArgs e)
         {
-           
+            FormTFC form = new FormTFC();
+            this.Dispose(false);
+            form.Show();
         }
 
         private void btnGrupo_Click(object sender, EventArgs e)
         {
-            
+            FormGrupos form = new FormGrupos();
+            this.Dispose(false);
+            form.Show();
         }
     }
 }

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Ejercicio2SinSQL
 {
-    public class Grupo
+    public class Tribunal
     {
         [Key]
-        public int Num_grupo { get; set; }
-        public string Nombre_grupo { get; set; }
-        public int Num_componente { get; set; }
+        public int Num { get; set; }
+        public string Lugar_Examen { get; set; }
+        public int Num_Componentes { get; set; }
     }
 }

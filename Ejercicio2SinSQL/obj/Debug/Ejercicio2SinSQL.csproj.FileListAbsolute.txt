@@ -29,3 +29,5 @@ C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\D
 C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.exe
 C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.pdb
 C:\Users\Aprendiz\Documents\C#\Escuela_Informatica_SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.FormGrupos.resources
+C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.FormGrupos.resources
+C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.FormTFC.resources

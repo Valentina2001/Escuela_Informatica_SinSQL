@@ -24,6 +24,18 @@ namespace Ejercicio2SinSQL
             _Manager = new AlumnoManager();
         }
 
+        public void LimpiarTexto()
+        {
+            foreach (Control ctrl in this.Controls)
+            {
+                if (ctrl is TextBox)
+                {
+                    TextBox text = ctrl as TextBox;
+                    text.Clear();
+                }
+            }
+        }
+
         private void btnReadAlmno_Click(object sender, EventArgs e)
         {
             listAlumno.Items.Clear();
@@ -47,6 +59,8 @@ namespace Ejercicio2SinSQL
                 int.Parse(this.txtDNI.Text),
                 this.txtNombreAlumno.Text
             );
+            btnReadAlmno_Click(this, new EventArgs());
+            LimpiarTexto();
         }
 
         private void btnActualizarAlumno_Click(object sender, EventArgs e)
@@ -56,11 +70,15 @@ namespace Ejercicio2SinSQL
                 int.Parse(this.txtDNI.Text),
                 this.txtNombreAlumno.Text
             );
+            btnReadAlmno_Click(this, new EventArgs());
+            LimpiarTexto();
         }
 
         private void btnEliminarAlumno_Click(object sender, EventArgs e)
         {
             _Manager.Delete(int.Parse(txtNumMatricula.Text));
+            btnReadAlmno_Click(this, new EventArgs());
+            LimpiarTexto();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)

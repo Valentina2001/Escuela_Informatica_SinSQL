@@ -27,11 +27,24 @@ namespace Ejercicio2SinSQL.Database
         protected override void OnModelCreating(DbModelBuilder modelBuiler)
         {
             modelBuiler.Configurations.Add(new AlumnoModel());
+            modelBuiler.Configurations.Add(new TribunalModel());
+            modelBuiler.Configurations.Add(new GrupoModel());
+            modelBuiler.Configurations.Add(new TFCModel());
         }
 
         public IQueryable<Alumno> Alumnos(bool trackChanges = false)
         {
             IQueryable<Alumno> query = this.Set<Alumno>();
+            if (!trackChanges)
+            {
+                query = query.AsNoTracking();
+            }
+            return query;
+        }
+
+        public IQueryable<Tribunal> Tribunales(bool trackChanges = false)
+        {
+            IQueryable<Tribunal> query = this.Set<Tribunal>();
             if (!trackChanges)
             {
                 query = query.AsNoTracking();

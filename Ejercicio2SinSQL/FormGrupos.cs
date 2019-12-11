@@ -59,9 +59,7 @@ namespace Ejercicio2SinSQL
             _Manager.Write(
                 this.txtNombreGrupo.Text,
                 int.Parse(this.txtNumeroComponente.Text)
-            );
-            btnLeerGrupo_Click(this, new EventArgs());
-            LimpiarTexto();
+                );
         }
 
         private void btnActualizarGrupo_Click(object sender, EventArgs e)
@@ -70,16 +68,12 @@ namespace Ejercicio2SinSQL
                 int.Parse(this.txtNumGrupo.Text),
                 this.txtNombreGrupo.Text,
                 int.Parse(this.txtNumeroComponente.Text)
-             );
-            btnLeerGrupo_Click(this, new EventArgs());
-            LimpiarTexto();
+                );
         }
 
         private void btnEliminarGrupo_Click(object sender, EventArgs e)
         {
             _Manager.Delete(int.Parse(txtNumGrupo.Text));
-            btnLeerGrupo_Click(this, new EventArgs());
-            LimpiarTexto();
         }
     }
 }
