@@ -58,7 +58,7 @@
             this.listAlumno.HideSelection = false;
             this.listAlumno.Location = new System.Drawing.Point(122, 112);
             this.listAlumno.Name = "listAlumno";
-            this.listAlumno.Size = new System.Drawing.Size(527, 107);
+            this.listAlumno.Size = new System.Drawing.Size(556, 132);
             this.listAlumno.TabIndex = 0;
             this.listAlumno.UseCompatibleStateImageBehavior = false;
             this.listAlumno.View = System.Windows.Forms.View.Details;
@@ -91,11 +91,11 @@
             // 
             // btnReadAlmno
             // 
-            this.btnReadAlmno.Location = new System.Drawing.Point(123, 83);
+            this.btnReadAlmno.Image = ((System.Drawing.Image)(resources.GetObject("btnReadAlmno.Image")));
+            this.btnReadAlmno.Location = new System.Drawing.Point(123, 50);
             this.btnReadAlmno.Name = "btnReadAlmno";
-            this.btnReadAlmno.Size = new System.Drawing.Size(75, 23);
+            this.btnReadAlmno.Size = new System.Drawing.Size(75, 56);
             this.btnReadAlmno.TabIndex = 2;
-            this.btnReadAlmno.Text = "Leer";
             this.btnReadAlmno.UseVisualStyleBackColor = true;
             this.btnReadAlmno.Click += new System.EventHandler(this.btnReadAlmno_Click);
             // 
@@ -103,7 +103,7 @@
             // 
             this.txtNumMatricula.Location = new System.Drawing.Point(214, 264);
             this.txtNumMatricula.Name = "txtNumMatricula";
-            this.txtNumMatricula.Size = new System.Drawing.Size(249, 20);
+            this.txtNumMatricula.Size = new System.Drawing.Size(216, 20);
             this.txtNumMatricula.TabIndex = 3;
             // 
             // lblNumMatricula
@@ -128,7 +128,7 @@
             // 
             this.txtDNI.Location = new System.Drawing.Point(214, 295);
             this.txtDNI.Name = "txtDNI";
-            this.txtDNI.Size = new System.Drawing.Size(249, 20);
+            this.txtDNI.Size = new System.Drawing.Size(216, 20);
             this.txtDNI.TabIndex = 5;
             // 
             // lblNombreAlumno
@@ -144,23 +144,23 @@
             // 
             this.txtNombreAlumno.Location = new System.Drawing.Point(214, 328);
             this.txtNombreAlumno.Name = "txtNombreAlumno";
-            this.txtNombreAlumno.Size = new System.Drawing.Size(249, 20);
+            this.txtNombreAlumno.Size = new System.Drawing.Size(216, 20);
             this.txtNombreAlumno.TabIndex = 7;
             // 
             // btnAgregarAlumno
             // 
-            this.btnAgregarAlumno.Location = new System.Drawing.Point(530, 260);
+            this.btnAgregarAlumno.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarAlumno.Image")));
+            this.btnAgregarAlumno.Location = new System.Drawing.Point(436, 264);
             this.btnAgregarAlumno.Name = "btnAgregarAlumno";
-            this.btnAgregarAlumno.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregarAlumno.Size = new System.Drawing.Size(75, 71);
             this.btnAgregarAlumno.TabIndex = 9;
-            this.btnAgregarAlumno.Text = "Agregar";
             this.btnAgregarAlumno.UseVisualStyleBackColor = true;
             this.btnAgregarAlumno.Click += new System.EventHandler(this.btnAgregarAlumno_Click);
             // 
             // btnActualizarAlumno
             // 
             this.btnActualizarAlumno.Image = ((System.Drawing.Image)(resources.GetObject("btnActualizarAlumno.Image")));
-            this.btnActualizarAlumno.Location = new System.Drawing.Point(629, 245);
+            this.btnActualizarAlumno.Location = new System.Drawing.Point(517, 264);
             this.btnActualizarAlumno.Name = "btnActualizarAlumno";
             this.btnActualizarAlumno.Size = new System.Drawing.Size(80, 71);
             this.btnActualizarAlumno.TabIndex = 10;
@@ -169,17 +169,17 @@
             // 
             // btnEliminarAlumno
             // 
-            this.btnEliminarAlumno.Location = new System.Drawing.Point(530, 331);
+            this.btnEliminarAlumno.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarAlumno.Image")));
+            this.btnEliminarAlumno.Location = new System.Drawing.Point(603, 264);
             this.btnEliminarAlumno.Name = "btnEliminarAlumno";
-            this.btnEliminarAlumno.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminarAlumno.Size = new System.Drawing.Size(75, 71);
             this.btnEliminarAlumno.TabIndex = 11;
-            this.btnEliminarAlumno.Text = "Eliminar";
             this.btnEliminarAlumno.UseVisualStyleBackColor = true;
             this.btnEliminarAlumno.Click += new System.EventHandler(this.btnEliminarAlumno_Click);
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(574, 83);
+            this.btnVolver.Location = new System.Drawing.Point(603, 83);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 12;
@@ -190,7 +190,7 @@
             // buscarAlumno
             // 
             this.buscarAlumno.AutoSize = true;
-            this.buscarAlumno.Location = new System.Drawing.Point(341, 63);
+            this.buscarAlumno.Location = new System.Drawing.Point(375, 63);
             this.buscarAlumno.Name = "buscarAlumno";
             this.buscarAlumno.Size = new System.Drawing.Size(40, 13);
             this.buscarAlumno.TabIndex = 13;
@@ -198,7 +198,7 @@
             // 
             // buscarText
             // 
-            this.buscarText.Location = new System.Drawing.Point(408, 60);
+            this.buscarText.Location = new System.Drawing.Point(436, 60);
             this.buscarText.Name = "buscarText";
             this.buscarText.Size = new System.Drawing.Size(241, 20);
             this.buscarText.TabIndex = 14;

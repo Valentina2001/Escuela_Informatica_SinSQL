@@ -33,3 +33,5 @@ C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejer
 C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.FormTFC.resources
 C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.Migrations.InitialCreate.resources
 C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.Migrations.Update.resources
+C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.FormProfesores.resources
+C:\Users\Usuario\Documentos\ADSI\Oscar Sierra\Trimestre IV\Ejercicio2SinSQL\Ejercicio2SinSQL\obj\Debug\Ejercicio2SinSQL.FormTribunales.resources

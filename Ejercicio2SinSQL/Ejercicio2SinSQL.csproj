@@ -125,8 +125,14 @@
     <EmbeddedResource Include="FormGrupos.resx">
       <DependentUpon>FormGrupos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormProfesores.resx">
+      <DependentUpon>FormProfesores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTFC.resx">
       <DependentUpon>FormTFC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTribunales.resx">
+      <DependentUpon>FormTribunales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu_principal.resx">
       <DependentUpon>menu_principal.cs</DependentUpon>

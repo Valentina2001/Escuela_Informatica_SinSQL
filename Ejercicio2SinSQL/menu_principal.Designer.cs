@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu_principal));
             this.fondoBienvenido = new System.Windows.Forms.Label();
             this.btnAlumno = new System.Windows.Forms.Button();
             this.btnProfesor = new System.Windows.Forms.Button();
@@ -51,51 +52,51 @@
             // 
             // btnAlumno
             // 
-            this.btnAlumno.Location = new System.Drawing.Point(14, 253);
+            this.btnAlumno.Image = ((System.Drawing.Image)(resources.GetObject("btnAlumno.Image")));
+            this.btnAlumno.Location = new System.Drawing.Point(40, 253);
             this.btnAlumno.Name = "btnAlumno";
-            this.btnAlumno.Size = new System.Drawing.Size(150, 32);
+            this.btnAlumno.Size = new System.Drawing.Size(124, 111);
             this.btnAlumno.TabIndex = 2;
-            this.btnAlumno.Text = "Ver Alumno";
             this.btnAlumno.UseVisualStyleBackColor = true;
             this.btnAlumno.Click += new System.EventHandler(this.btnAlumno_Click);
             // 
             // btnProfesor
             // 
-            this.btnProfesor.Location = new System.Drawing.Point(170, 253);
+            this.btnProfesor.Image = ((System.Drawing.Image)(resources.GetObject("btnProfesor.Image")));
+            this.btnProfesor.Location = new System.Drawing.Point(184, 253);
             this.btnProfesor.Name = "btnProfesor";
-            this.btnProfesor.Size = new System.Drawing.Size(150, 32);
+            this.btnProfesor.Size = new System.Drawing.Size(127, 111);
             this.btnProfesor.TabIndex = 3;
-            this.btnProfesor.Text = "Ver Profesor";
             this.btnProfesor.UseVisualStyleBackColor = true;
             this.btnProfesor.Click += new System.EventHandler(this.btnProfesor_Click);
             // 
             // btnTribunal
             // 
-            this.btnTribunal.Location = new System.Drawing.Point(326, 253);
+            this.btnTribunal.Image = ((System.Drawing.Image)(resources.GetObject("btnTribunal.Image")));
+            this.btnTribunal.Location = new System.Drawing.Point(331, 253);
             this.btnTribunal.Name = "btnTribunal";
-            this.btnTribunal.Size = new System.Drawing.Size(150, 32);
+            this.btnTribunal.Size = new System.Drawing.Size(130, 111);
             this.btnTribunal.TabIndex = 4;
-            this.btnTribunal.Text = "Ver Tribunal";
             this.btnTribunal.UseVisualStyleBackColor = true;
             this.btnTribunal.Click += new System.EventHandler(this.btnTribunal_Click);
             // 
             // btnGrupo
             // 
-            this.btnGrupo.Location = new System.Drawing.Point(482, 253);
+            this.btnGrupo.Image = ((System.Drawing.Image)(resources.GetObject("btnGrupo.Image")));
+            this.btnGrupo.Location = new System.Drawing.Point(484, 253);
             this.btnGrupo.Name = "btnGrupo";
-            this.btnGrupo.Size = new System.Drawing.Size(150, 32);
+            this.btnGrupo.Size = new System.Drawing.Size(132, 111);
             this.btnGrupo.TabIndex = 5;
-            this.btnGrupo.Text = "Ver Grupo";
             this.btnGrupo.UseVisualStyleBackColor = true;
             this.btnGrupo.Click += new System.EventHandler(this.btnGrupo_Click);
             // 
             // btnTfc
             // 
+            this.btnTfc.Image = ((System.Drawing.Image)(resources.GetObject("btnTfc.Image")));
             this.btnTfc.Location = new System.Drawing.Point(638, 253);
             this.btnTfc.Name = "btnTfc";
-            this.btnTfc.Size = new System.Drawing.Size(150, 32);
+            this.btnTfc.Size = new System.Drawing.Size(130, 111);
             this.btnTfc.TabIndex = 6;
-            this.btnTfc.Text = "Ver TFC";
             this.btnTfc.UseVisualStyleBackColor = true;
             this.btnTfc.Click += new System.EventHandler(this.btnTfc_Click);
             // 

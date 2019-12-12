@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTribunales));
             this.listTribunales = new System.Windows.Forms.ListView();
             this.colNum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colLugarExamen = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -89,11 +90,11 @@
             // btnLeerTribunal
             // 
             this.btnLeerTribunal.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLeerTribunal.Location = new System.Drawing.Point(62, 92);
+            this.btnLeerTribunal.Image = ((System.Drawing.Image)(resources.GetObject("btnLeerTribunal.Image")));
+            this.btnLeerTribunal.Location = new System.Drawing.Point(62, 69);
             this.btnLeerTribunal.Name = "btnLeerTribunal";
-            this.btnLeerTribunal.Size = new System.Drawing.Size(75, 31);
+            this.btnLeerTribunal.Size = new System.Drawing.Size(65, 54);
             this.btnLeerTribunal.TabIndex = 2;
-            this.btnLeerTribunal.Text = "Leer";
             this.btnLeerTribunal.UseVisualStyleBackColor = true;
             this.btnLeerTribunal.Click += new System.EventHandler(this.btnLeerTribunal_Click);
             // 
@@ -162,33 +163,33 @@
             // btnAgregarTribunal
             // 
             this.btnAgregarTribunal.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarTribunal.Location = new System.Drawing.Point(418, 348);
+            this.btnAgregarTribunal.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarTribunal.Image")));
+            this.btnAgregarTribunal.Location = new System.Drawing.Point(404, 364);
             this.btnAgregarTribunal.Name = "btnAgregarTribunal";
-            this.btnAgregarTribunal.Size = new System.Drawing.Size(81, 31);
+            this.btnAgregarTribunal.Size = new System.Drawing.Size(85, 83);
             this.btnAgregarTribunal.TabIndex = 10;
-            this.btnAgregarTribunal.Text = "Agregar";
             this.btnAgregarTribunal.UseVisualStyleBackColor = true;
             this.btnAgregarTribunal.Click += new System.EventHandler(this.btnAgregarTribunal_Click);
             // 
             // btnActualizarTribunal
             // 
             this.btnActualizarTribunal.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizarTribunal.Location = new System.Drawing.Point(520, 348);
+            this.btnActualizarTribunal.Image = ((System.Drawing.Image)(resources.GetObject("btnActualizarTribunal.Image")));
+            this.btnActualizarTribunal.Location = new System.Drawing.Point(506, 364);
             this.btnActualizarTribunal.Name = "btnActualizarTribunal";
-            this.btnActualizarTribunal.Size = new System.Drawing.Size(94, 31);
+            this.btnActualizarTribunal.Size = new System.Drawing.Size(94, 83);
             this.btnActualizarTribunal.TabIndex = 11;
-            this.btnActualizarTribunal.Text = "Actualizar";
             this.btnActualizarTribunal.UseVisualStyleBackColor = true;
             this.btnActualizarTribunal.Click += new System.EventHandler(this.btnActualizarTribunal_Click);
             // 
             // btnEliminarTribunal
             // 
             this.btnEliminarTribunal.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarTribunal.Location = new System.Drawing.Point(630, 348);
+            this.btnEliminarTribunal.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarTribunal.Image")));
+            this.btnEliminarTribunal.Location = new System.Drawing.Point(616, 364);
             this.btnEliminarTribunal.Name = "btnEliminarTribunal";
-            this.btnEliminarTribunal.Size = new System.Drawing.Size(80, 31);
+            this.btnEliminarTribunal.Size = new System.Drawing.Size(94, 83);
             this.btnEliminarTribunal.TabIndex = 12;
-            this.btnEliminarTribunal.Text = "Eliminar";
             this.btnEliminarTribunal.UseVisualStyleBackColor = true;
             this.btnEliminarTribunal.Click += new System.EventHandler(this.btnEliminarTribunal_Click);
             // 

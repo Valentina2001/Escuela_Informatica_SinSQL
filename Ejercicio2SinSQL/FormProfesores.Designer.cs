@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProfesores));
             this.listProfesores = new System.Windows.Forms.ListView();
             this.colDNI = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -56,9 +57,9 @@
             this.colDomicilio});
             this.listProfesores.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listProfesores.HideSelection = false;
-            this.listProfesores.Location = new System.Drawing.Point(21, 75);
+            this.listProfesores.Location = new System.Drawing.Point(21, 115);
             this.listProfesores.Name = "listProfesores";
-            this.listProfesores.Size = new System.Drawing.Size(632, 225);
+            this.listProfesores.Size = new System.Drawing.Size(632, 185);
             this.listProfesores.TabIndex = 0;
             this.listProfesores.UseCompatibleStateImageBehavior = false;
             this.listProfesores.View = System.Windows.Forms.View.Details;
@@ -82,7 +83,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(146, 30);
+            this.label1.Location = new System.Drawing.Point(283, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(128, 28);
             this.label1.TabIndex = 1;
@@ -92,29 +93,29 @@
             // btnLeer
             // 
             this.btnLeer.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLeer.Location = new System.Drawing.Point(21, 46);
+            this.btnLeer.Image = ((System.Drawing.Image)(resources.GetObject("btnLeer.Image")));
+            this.btnLeer.Location = new System.Drawing.Point(21, 60);
             this.btnLeer.Name = "btnLeer";
-            this.btnLeer.Size = new System.Drawing.Size(75, 23);
+            this.btnLeer.Size = new System.Drawing.Size(61, 49);
             this.btnLeer.TabIndex = 2;
-            this.btnLeer.Text = "LEER";
             this.btnLeer.UseVisualStyleBackColor = true;
             this.btnLeer.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(298, 313);
+            this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
+            this.btnAgregar.Location = new System.Drawing.Point(368, 313);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(113, 26);
+            this.btnAgregar.Size = new System.Drawing.Size(90, 75);
             this.btnAgregar.TabIndex = 3;
-            this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnVolver
             // 
             this.btnVolver.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.Location = new System.Drawing.Point(578, 46);
+            this.btnVolver.Location = new System.Drawing.Point(578, 86);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(75, 23);
             this.btnVolver.TabIndex = 4;
@@ -176,28 +177,28 @@
             // btnActualizar
             // 
             this.btnActualizar.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.Location = new System.Drawing.Point(417, 313);
+            this.btnActualizar.Image = ((System.Drawing.Image)(resources.GetObject("btnActualizar.Image")));
+            this.btnActualizar.Location = new System.Drawing.Point(464, 313);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(113, 24);
+            this.btnActualizar.Size = new System.Drawing.Size(91, 75);
             this.btnActualizar.TabIndex = 11;
-            this.btnActualizar.Text = "ACTUALIZAR";
             this.btnActualizar.UseVisualStyleBackColor = true;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // btnEliminar
             // 
             this.btnEliminar.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(536, 312);
+            this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
+            this.btnEliminar.Location = new System.Drawing.Point(561, 312);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(113, 29);
+            this.btnEliminar.Size = new System.Drawing.Size(92, 76);
             this.btnEliminar.TabIndex = 12;
-            this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // BuscarText
             // 
-            this.BuscarText.Location = new System.Drawing.Point(375, 48);
+            this.BuscarText.Location = new System.Drawing.Point(487, 60);
             this.BuscarText.Name = "BuscarText";
             this.BuscarText.Size = new System.Drawing.Size(166, 20);
             this.BuscarText.TabIndex = 13;
@@ -206,7 +207,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(329, 51);
+            this.label2.Location = new System.Drawing.Point(441, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 14;
@@ -216,7 +217,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 450);
+            this.ClientSize = new System.Drawing.Size(770, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.BuscarText);
             this.Controls.Add(this.btnEliminar);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGrupos));
             this.listGrupos = new System.Windows.Forms.ListView();
             this.colNumgrupo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colNombreGrupo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -57,7 +58,7 @@
             this.listGrupos.HideSelection = false;
             this.listGrupos.Location = new System.Drawing.Point(116, 105);
             this.listGrupos.Name = "listGrupos";
-            this.listGrupos.Size = new System.Drawing.Size(542, 136);
+            this.listGrupos.Size = new System.Drawing.Size(553, 160);
             this.listGrupos.TabIndex = 0;
             this.listGrupos.UseCompatibleStateImageBehavior = false;
             this.listGrupos.View = System.Windows.Forms.View.Details;
@@ -79,11 +80,11 @@
             // 
             // btnLeerGrupo
             // 
-            this.btnLeerGrupo.Location = new System.Drawing.Point(116, 64);
+            this.btnLeerGrupo.Image = ((System.Drawing.Image)(resources.GetObject("btnLeerGrupo.Image")));
+            this.btnLeerGrupo.Location = new System.Drawing.Point(116, 50);
             this.btnLeerGrupo.Name = "btnLeerGrupo";
-            this.btnLeerGrupo.Size = new System.Drawing.Size(75, 23);
+            this.btnLeerGrupo.Size = new System.Drawing.Size(71, 49);
             this.btnLeerGrupo.TabIndex = 1;
-            this.btnLeerGrupo.Text = "Leer";
             this.btnLeerGrupo.UseVisualStyleBackColor = true;
             this.btnLeerGrupo.Click += new System.EventHandler(this.btnLeerGrupo_Click);
             // 
@@ -91,7 +92,7 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(292, 42);
+            this.lblTitulo.Location = new System.Drawing.Point(340, 9);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(132, 25);
             this.lblTitulo.TabIndex = 2;
@@ -99,7 +100,7 @@
             // 
             // btnVolverInicio
             // 
-            this.btnVolverInicio.Location = new System.Drawing.Point(581, 64);
+            this.btnVolverInicio.Location = new System.Drawing.Point(594, 76);
             this.btnVolverInicio.Name = "btnVolverInicio";
             this.btnVolverInicio.Size = new System.Drawing.Size(75, 23);
             this.btnVolverInicio.TabIndex = 3;
@@ -157,45 +158,45 @@
             // 
             // btnAgregarGrupo
             // 
-            this.btnAgregarGrupo.Location = new System.Drawing.Point(464, 283);
+            this.btnAgregarGrupo.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarGrupo.Image")));
+            this.btnAgregarGrupo.Location = new System.Drawing.Point(407, 293);
             this.btnAgregarGrupo.Name = "btnAgregarGrupo";
-            this.btnAgregarGrupo.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregarGrupo.Size = new System.Drawing.Size(83, 79);
             this.btnAgregarGrupo.TabIndex = 10;
-            this.btnAgregarGrupo.Text = "Agregar";
             this.btnAgregarGrupo.UseVisualStyleBackColor = true;
             this.btnAgregarGrupo.Click += new System.EventHandler(this.btnAgregarGrupo_Click);
             // 
             // btnActualizarGrupo
             // 
-            this.btnActualizarGrupo.Location = new System.Drawing.Point(464, 325);
+            this.btnActualizarGrupo.Image = ((System.Drawing.Image)(resources.GetObject("btnActualizarGrupo.Image")));
+            this.btnActualizarGrupo.Location = new System.Drawing.Point(496, 293);
             this.btnActualizarGrupo.Name = "btnActualizarGrupo";
-            this.btnActualizarGrupo.Size = new System.Drawing.Size(75, 23);
+            this.btnActualizarGrupo.Size = new System.Drawing.Size(79, 79);
             this.btnActualizarGrupo.TabIndex = 11;
-            this.btnActualizarGrupo.Text = "Actualizar";
             this.btnActualizarGrupo.UseVisualStyleBackColor = true;
             this.btnActualizarGrupo.Click += new System.EventHandler(this.btnActualizarGrupo_Click);
             // 
             // btnEliminarGrupo
             // 
-            this.btnEliminarGrupo.Location = new System.Drawing.Point(464, 367);
+            this.btnEliminarGrupo.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarGrupo.Image")));
+            this.btnEliminarGrupo.Location = new System.Drawing.Point(581, 293);
             this.btnEliminarGrupo.Name = "btnEliminarGrupo";
-            this.btnEliminarGrupo.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminarGrupo.Size = new System.Drawing.Size(88, 79);
             this.btnEliminarGrupo.TabIndex = 12;
-            this.btnEliminarGrupo.Text = "Eliminar";
             this.btnEliminarGrupo.UseVisualStyleBackColor = true;
             this.btnEliminarGrupo.Click += new System.EventHandler(this.btnEliminarGrupo_Click);
             // 
             // buscarText
             // 
-            this.buscarText.Location = new System.Drawing.Point(431, 66);
+            this.buscarText.Location = new System.Drawing.Point(478, 50);
             this.buscarText.Name = "buscarText";
-            this.buscarText.Size = new System.Drawing.Size(144, 20);
+            this.buscarText.Size = new System.Drawing.Size(191, 20);
             this.buscarText.TabIndex = 13;
             // 
             // lblBuscar
             // 
             this.lblBuscar.AutoSize = true;
-            this.lblBuscar.Location = new System.Drawing.Point(388, 70);
+            this.lblBuscar.Location = new System.Drawing.Point(432, 53);
             this.lblBuscar.Name = "lblBuscar";
             this.lblBuscar.Size = new System.Drawing.Size(40, 13);
             this.lblBuscar.TabIndex = 14;

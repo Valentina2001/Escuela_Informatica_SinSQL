@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnLeer.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnLeerTribunal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAA8NSURBVGhD3VppdJTXeSapc3Cb5UfSHv9xa59maeLm1Emcuk3s1I4b6g0cg41jY8BGgIixwWBq
@@ -188,7 +188,7 @@
         lz0SHZ3zHfp8n+X/0+IxZ87/APdNI+6+ca50AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnAgregar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnAgregarTribunal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAABDJSURBVHhe3VxpVFRnmra7Z7r7x8yvmdOTf/2nf/VMz/RQhSg6YqJRgUJQKFSgFlYFxRUT09oR
@@ -266,7 +266,7 @@
         QmCC
 </value>
   </data>
-  <data name="btnActualizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnActualizarTribunal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAQPSURBVHhe7dy9q1RHGMfx26iImL9BorUg2KRKYSASFBSLdL5AmnQKghAxhUkRwXcTEhWx8K0K
@@ -289,7 +289,7 @@
         j4h9fesh7sOW6Y2tGtvJAZvCeF6fTE39D+9ntjzt7z1PAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnEliminar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnEliminarTribunal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAwMSURBVHhe7d39UxT3HQdwZ9pf6w/p9D9oJwIiiorgEypEPVHAOI4GAshzlAfBJ8BkotNqmnTS
